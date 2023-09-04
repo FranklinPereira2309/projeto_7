@@ -11,7 +11,8 @@ int main() {
    cout << "Digite um valor de 0 ao máximo: " << endl;
    
 
-    for(i=1 ; i<=10 ; i++){
+    for(i=1 ; i<=100 ; i++){
+        
         unsigned seed = time(0);
         srand(seed);
         numeroAleatorio = 1+rand()%100;
