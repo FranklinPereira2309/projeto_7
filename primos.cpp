@@ -2,10 +2,6 @@
 #include <cmath>
 using namespace std;
 
-#include <iostream>
-#include <cmath>
-using namespace std;
-
 int main()
 {
     int aux, conte, range = 100, div;
