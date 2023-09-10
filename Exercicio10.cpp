@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int numero, anterior = 0, penultimo = 1, soma = 0, auxiliar = 0;
+    int numero, anterior = 0, penultimo = 1, soma = 0, sequencia = 0;
 
     cout << "Digite um número inteiro: ";
     cin >> numero;
@@ -14,8 +14,8 @@ int main() {
 
         soma = anterior + penultimo;
             
-        auxiliar = penultimo;
-        anterior = auxiliar;
+        sequencia = penultimo;
+        anterior = sequencia;
         penultimo = soma;
 
         cout << penultimo << " " ;
